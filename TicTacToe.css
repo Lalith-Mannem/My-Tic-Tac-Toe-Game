@@ -1,0 +1,191 @@
+.xSelect {
+	width:100px;
+	background-color:white;
+	height:100px;
+	border-radius:20%;
+	color:black;
+	font-size:1.5em;
+	margin:2.5%;
+	text-align:center;
+	line-height:100px;
+	transition:border-radius 0.5s;
+}
+
+body {
+	background-color:black;
+}
+
+.header {
+	font-size:2em;
+	margin:5%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.xSelect:hover{
+	background-color:blue;
+	color:white;
+	border-radius:50%;
+	cursor:pointer;
+}
+
+body {
+	text-align:center;
+	color:white;
+}
+
+.oSelect {
+	width:100px;
+	height:100px;
+	border-radius:20%;
+	background-color:white;
+	color:black;
+	font-size:1.5em;
+	margin:2.5%;
+	text-align:center;
+	line-height:100px;
+	transition:border-radius 0.5s;
+	
+}
+
+.oSelect:hover{
+	background-color:blue;
+	color:white;
+	border-radius:50%;
+	cursor:pointer;
+
+}
+
+.colorRed {
+	color:red;
+}
+
+.content {
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	padding:10px;
+	margin:5%;
+	font-family: 'Raleway', sans-serif;
+}
+
+#selectScreen {
+	position:relative;
+	display:inline-block;
+}
+
+tr {
+	width:300px;	
+}
+
+
+ 
+
+td {
+	width:100px;
+	height:100px;
+	text-align:center;
+	font-size:1.2em;
+	line-height:50px;
+}
+
+a {
+	font-size:1.2em;
+	color:white;
+	text-decoration:none;
+}
+
+a:hover {
+	color:blue;
+}
+
+a:visited {
+	color:#87CEFA;
+}
+
+a:visited:hover {
+	color:blue;
+}
+
+.testHover:hover {
+	cursor:cell;
+	background-color:#87CEFA;
+}
+
+.nohover {
+	cursor:initial;
+	background-color:black;
+}
+
+#gameBoard {
+	border-collapse:collapse;
+}
+
+.upperRow {
+	
+	border-bottom:1px solid;
+
+}
+
+.bottomRow {
+	
+	border-top:1px solid;
+	
+	
+}
+
+.midSquare {
+	border-style:solid;
+	border-color:white;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-bottom-width:0;
+	border-top-width:0;
+}
+
+.signature {
+	position:relative;
+	display:inline-block;
+	bottom:5%;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+#notif {
+	font-family: 'Nosifer', cursive;
+	color:red;
+	font-size:1.5em;
+}
+
+#resetButton {
+	font-size:2em;
+	color:blue;
+	background-color:black;
+	border-radius:50%;
+	padding:2%;
+
+}
+
+#resetButton:hover {
+	font-size:2.5em;
+	transition:font-size 0.5s;
+	transition-timing-function: ease-in-out;
+	cursor:pointer;
+}
+
+.fa-heart {
+	color:red;
+	font-size:1.2em;
+}
+
+.noselect {
+	  -webkit-touch-callout: none; /* iOS Safari */
+	    -webkit-user-select: none; /* Safari */
+	     -khtml-user-select: none; /* Konqueror HTML */
+	       -moz-user-select: none; /* Firefox */
+	        -ms-user-select: none; /* Internet Explorer/Edge */
+	            user-select: none; /* Non-prefixed version, currently
+	                                  supported by Chrome and Opera */
+	}
+	
+.fa-play-circle {
+	color:blue ;
+}
